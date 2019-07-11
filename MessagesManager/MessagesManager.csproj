@@ -194,9 +194,7 @@
       <Name>MessagesManager.Data</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>call "$(ProjectDir)afterBuild.bat" "$(ProjectDir)" "$(ProjectDir)bin\$(ConfigurationName)" "$(SolutionDir)"</PostBuildEvent>
